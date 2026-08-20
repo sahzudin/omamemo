@@ -13,12 +13,13 @@ account, leaderboard, or network traffic to slow down the fun.
 
 ## Install
 
-From a local checkout, run:
+From the public repository, run:
 
 ```bash
-omarchy plugin install .
-omarchy plugin enable io.github.sahzudin.omamemo
+omarchy plugin add https://github.com/sahzudin/omamemo.git --enable
 ```
+
+For a local checkout, replace the URL with the checkout path.
 
 The plugin adds an `Omamemo` ◈ widget to the bar. Click it to open the game;
 right-click the widget to start a fresh board.
