@@ -24,6 +24,19 @@ For a local checkout, replace the URL with the checkout path.
 The plugin adds an `Omamemo` ◈ widget to the bar. Click it to open the game;
 right-click the widget to start a fresh board.
 
+## Remove
+
+Remove Omamemo through Omarchy's plugin manager:
+
+```bash
+omarchy plugin remove io.github.sahzudin.omamemo
+```
+
+The command disables the widget before removing its checkout. It keeps your
+locally saved best time; delete
+`$XDG_STATE_HOME/omamemo/best.json` (or
+`~/.local/state/omamemo/best.json`) separately only if you want to reset it.
+
 ## Development
 
 Validate the plugin manifest and QML entrypoints with:
