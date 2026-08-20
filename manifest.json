@@ -5,7 +5,7 @@
   "version": "1.0.0",
   "author": "Sahzudin",
   "license": "MIT",
-  "description": "A compact Omarchy memory game that lives in the bar.",
+  "description": "Keep your brain live while your agents are working: a tiny Omarchy memory game in the bar.",
   "kinds": [
     "bar-widget"
   ],
@@ -14,7 +14,7 @@
   },
   "barWidget": {
     "displayName": "Omamemo",
-    "description": "Open a compact symbol-matching game from the bar.",
+    "description": "Flip 16 glyph cards, match eight pairs, and chase your fastest local time.",
     "category": "Fun",
     "allowMultiple": false,
     "defaultSection": "center"
