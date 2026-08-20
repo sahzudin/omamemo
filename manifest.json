@@ -1,0 +1,22 @@
+{
+  "schemaVersion": 1,
+  "id": "io.github.sahzudin.omamemo",
+  "name": "Omamemo",
+  "version": "1.0.0",
+  "author": "Sahzudin",
+  "license": "MIT",
+  "description": "A compact Omarchy memory game that lives in the bar.",
+  "kinds": [
+    "bar-widget"
+  ],
+  "entryPoints": {
+    "barWidget": "v2/BarWidget.qml"
+  },
+  "barWidget": {
+    "displayName": "Omamemo",
+    "description": "Open a compact symbol-matching game from the bar.",
+    "category": "Fun",
+    "allowMultiple": false,
+    "defaultSection": "center"
+  }
+}
